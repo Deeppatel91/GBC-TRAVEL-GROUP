@@ -1,0 +1,51 @@
+﻿@model IEnumerable<GBC_Travel_Group_45.Models.Hotel>
+
+<div class="container mt-4  ">
+    <div class="row justify-content-between align-items-center mb-4">
+        <div class="col">
+            <h2>Hotels</h2>
+        </div>
+        <div class="col text-right">
+            <a href="@Url.Action("Create", "Hotel")" class="btn btn-success">Add Another Hotel</a>
+        </div>
+    </div>
+
+    <div class="row">
+        @foreach (var hotel in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    @if (hotel.Images.Any())
+                    {
+                        <img src="@hotel.Images.First().ImagePath" class="card-img-top hotel-img" alt="Hotel Image">
+                    }
+                    else
+                    {
+                        <img src="@Url.Content("~/images/default-hotel.jpg")" class="card-img-top hotel-img" alt="Default Hotel Image">
+
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@hotel.HotelName</h5>
+                        
+
+
+                        <p class="card-text">
+                            Location: @hotel.Location <br>
+                            Single Rooms: @hotel.SingleRoomsCount <br>
+                            Sngle Room Per Day Price : @hotel.SingleRoomPrice <br>
+                            Double Rooms: @hotel.DoubleRoomsCount <br>
+                            Double Room Per Day Price: @hotel.DoubleRoomPrice <br>
+                           
+                        </p>
+
+                        <a href="@Url.Action("Edit", "Hotel", new { id = hotel.Id })" class="btn btn-secondary"><i class="fa-solid fa-pen"></i> Edit</a>
+                        <a href="@Url.Action("Delete", "Hotel", new { id = hotel.Id })" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i> Delete</a>
+                    </div>
+                     <a href="@Url.Action("Book", "Hotel", new { id = hotel.Id })" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+

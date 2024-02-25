@@ -1,0 +1,317 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GBC_Travel-Group-45.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GBC_Travel-Group-45.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\css\\AddHotel.css",
+      "PackagePath": "staticwebassets\\css\\AddHotel.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\css\\MakeBooking.css",
+      "PackagePath": "staticwebassets\\css\\MakeBooking.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\css\\ViewFlight.css",
+      "PackagePath": "staticwebassets\\css\\ViewFlight.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\css\\ViewHotel.css",
+      "PackagePath": "staticwebassets\\css\\ViewHotel.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\images\\cars\\default-car.jpg",
+      "PackagePath": "staticwebassets\\images\\cars\\default-car.jpg"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\images\\cars\\download (2).jpg",
+      "PackagePath": "staticwebassets\\images\\cars\\download (2).jpg"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\images\\cars\\download (3).jpg",
+      "PackagePath": "staticwebassets\\images\\cars\\download (3).jpg"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\images\\cars\\img-0419-jpg-645a5f617cc1d.jpg",
+      "PackagePath": "staticwebassets\\images\\cars\\img-0419-jpg-645a5f617cc1d.jpg"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\images\\cars\\rav4.jpeg",
+      "PackagePath": "staticwebassets\\images\\cars\\rav4.jpeg"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\images\\default-hotel.jpg",
+      "PackagePath": "staticwebassets\\images\\default-hotel.jpg"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\images\\holiday-inn-hotel-and-suites-springfield-4103412703-2x1.jpg",
+      "PackagePath": "staticwebassets\\images\\holiday-inn-hotel-and-suites-springfield-4103412703-2x1.jpg"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\images\\ictwe-exterior-5533-hor-clsc_E7BE6E1B-BF2A-40D9-2BF366A97DCC7976-e7be6daac4650f7_e7be7c17-d6d4-d2a7-e577fd383cb4cf0b.jpg",
+      "PackagePath": "staticwebassets\\images\\ictwe-exterior-5533-hor-clsc_E7BE6E1B-BF2A-40D9-2BF366A97DCC7976-e7be6daac4650f7_e7be7c17-d6d4-d2a7-e577fd383cb4cf0b.jpg"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GBC_Travel-Group-45.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GBC_Travel-Group-45.props",
+      "PackagePath": "build\\GBC_Travel-Group-45.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GBC_Travel-Group-45.props",
+      "PackagePath": "buildMultiTargeting\\GBC_Travel-Group-45.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GBC_Travel-Group-45.props",
+      "PackagePath": "buildTransitive\\GBC_Travel-Group-45.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,44 @@
+﻿@model GBC_Travel_Group_45.Models.HotelBooking
+
+@{
+    ViewData["Title"] = "Booking Confirmation";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="BookingSummary">
+    <h4>Booking Details</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">Booking ID:</dt>
+        <dd class="col-sm-9">@Model.Id</dd>
+
+        <dt class="col-sm-3">Hotel Name:</dt>
+        <dd class="col-sm-9">@Model.Hotel.HotelName</dd>
+
+        <dt class="col-sm-3">Location:</dt>
+        <dd class="col-sm-9">@Model.Hotel.Location</dd>
+
+        <dt class="col-sm-3">Guest Name:</dt>
+        <dd class="col-sm-9">@Model.Guest.FirstName @Model.Guest.LastName</dd>
+
+        <dt class="col-sm-3">Booking Start Date:</dt>
+        <dd class="col-sm-9">@Model.BookingStart.ToShortDateString()</dd>
+
+        <dt class="col-sm-3">Booking End Date:</dt>
+        <dd class="col-sm-9">@Model.BookingEnd.ToShortDateString()</dd>
+
+        <dt class="col-sm-3">Room Type:</dt>
+        <dd class="col-sm-9">@Model.RoomType</dd>
+
+        <dt class="col-sm-3">Number of Rooms:</dt>
+        <dd class="col-sm-9">@Model.NumberOfRooms</dd>
+
+        <dt class="col-sm-3">Total Price:</dt>
+        <dd class="col-sm-9">$@Model.TotalPrice.ToString("N2")</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-primary">Back to Home</a>
+</div>

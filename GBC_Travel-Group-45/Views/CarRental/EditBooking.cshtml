@@ -1,0 +1,48 @@
+﻿@model GBC_Travel_Group_45.Models.CarBooking
+
+<h2>Edit Car Booking</h2>
+
+<form asp-action="EditBooking" asp-controller="CarRental" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div>
+        <label asp-for="Customer.FirstName">First Name</label>
+        <input asp-for="Customer.FirstName" class="form-control" />
+        <span asp-validation-for="Customer.FirstName" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Customer.LastName">Last Name</label>
+        <input asp-for="Customer.LastName" class="form-control" />
+        <span asp-validation-for="Customer.LastName" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="BookingStart">Booking Start</label>
+        <input asp-for="BookingStart" class="form-control" />
+        <span asp-validation-for="BookingStart" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="BookingEnd">Booking End</label>
+        <input asp-for="BookingEnd" class="form-control" />
+        <span asp-validation-for="BookingEnd" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="PickupLocation">Pickup Location</label>
+        <input asp-for="PickupLocation" class="form-control" />
+        <span asp-validation-for="PickupLocation" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="DropLocation">Drop Location</label>
+        <input asp-for="DropLocation" class="form-control" />
+        <span asp-validation-for="DropLocation" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="PhoneNumber">Phone Number</label>
+        <input asp-for="PhoneNumber" class="form-control" />
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Update Booking</button>
+</form>

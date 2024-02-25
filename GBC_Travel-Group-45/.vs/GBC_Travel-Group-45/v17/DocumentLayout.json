@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|c:\\users\\hiren\\onedrive\\desktop\\milan\\gbc_travel-group-45\\views\\hotel\\deletebooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|solutionrelative:views\\hotel\\deletebooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|c:\\users\\hiren\\onedrive\\desktop\\milan\\gbc_travel-group-45\\views\\hotel\\editbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|solutionrelative:views\\hotel\\editbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|c:\\users\\hiren\\onedrive\\desktop\\milan\\gbc_travel-group-45\\views\\hotel\\viewbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|solutionrelative:views\\hotel\\viewbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|c:\\users\\hiren\\onedrive\\desktop\\milan\\gbc_travel-group-45\\views\\hotel\\bookingconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|solutionrelative:views\\hotel\\bookingconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|c:\\users\\hiren\\onedrive\\desktop\\milan\\gbc_travel-group-45\\views\\hotel\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|solutionrelative:views\\hotel\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|c:\\users\\hiren\\onedrive\\desktop\\milan\\gbc_travel-group-45\\views\\hotel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|solutionrelative:views\\hotel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|c:\\users\\hiren\\onedrive\\desktop\\milan\\gbc_travel-group-45\\views\\hotel\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|solutionrelative:views\\hotel\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|c:\\users\\hiren\\onedrive\\desktop\\milan\\gbc_travel-group-45\\views\\hotel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|solutionrelative:views\\hotel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|c:\\users\\hiren\\onedrive\\desktop\\milan\\gbc_travel-group-45\\views\\hotel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A7AAC71-0547-4FBB-9724-D46E7D5AE80B}|GBC_Travel-Group-45.csproj|solutionrelative:views\\hotel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeleteBooking.cshtml",
+              "DocumentMoniker": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\DeleteBooking.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hotel\\DeleteBooking.cshtml",
+              "ToolTip": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\DeleteBooking.cshtml",
+              "RelativeToolTip": "Views\\Hotel\\DeleteBooking.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-25T14:09:53.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditBooking.cshtml",
+              "DocumentMoniker": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\EditBooking.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hotel\\EditBooking.cshtml",
+              "ToolTip": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\EditBooking.cshtml",
+              "RelativeToolTip": "Views\\Hotel\\EditBooking.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-25T14:09:52.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewBookings.cshtml",
+              "DocumentMoniker": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\ViewBookings.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hotel\\ViewBookings.cshtml",
+              "ToolTip": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\ViewBookings.cshtml",
+              "RelativeToolTip": "Views\\Hotel\\ViewBookings.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-25T14:09:50.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\BookingConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hotel\\BookingConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\BookingConfirmation.cshtml",
+              "RelativeToolTip": "Views\\Hotel\\BookingConfirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-25T14:09:46.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hotel\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Hotel\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-25T14:09:45.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hotel\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Hotel\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-25T14:09:36.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book.cshtml",
+              "DocumentMoniker": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\Book.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hotel\\Book.cshtml",
+              "ToolTip": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\Book.cshtml",
+              "RelativeToolTip": "Views\\Hotel\\Book.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-25T14:09:33.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hotel\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\Create.cshtml",
+              "RelativeToolTip": "Views\\Hotel\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-25T14:09:30.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hotel\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hiren\\OneDrive\\Desktop\\Milan\\GBC_Travel-Group-45\\Views\\Hotel\\Index.cshtml",
+              "RelativeToolTip": "Views\\Hotel\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-25T14:09:23.071Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+﻿@model IEnumerable<GBC_Travel_Group_45.Models.Booking>
+
+
+
+
+
+@{
+    ViewData["Title"] = "View Bookings";
+}
+
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="styled-table tabledesign">
+    <thead>
+        <tr>
+            <th>Flight Number</th>
+            <th>Flight Name</th>
+            <th>Passenger Name</th>
+            <th>Email</th>
+            <th>Booking Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var booking in Model)
+        {
+            <tr>
+                <td>@booking.Flight.FlightNumber</td>
+                <td>@booking.Flight.Name</td>
+
+                <td>@booking.Passenger.FirstName @booking.Passenger.LastName</td>
+                <td>@booking.Passenger.Email</td>
+                <td>@booking.BookingDate.ToString("g")</td>
+                <td>
+                    <a href="@Url.Action("EditBooking", new { id = booking.Id })" class="btn btn-edit , "><i class="fa-solid fa-pen"></i> Edit</a>
+                    <a href="@Url.Action("DeleteBooking", new { id = booking.Id })" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i> Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Index", "Flights")" class="btn btn-secondary">Return to Flight List</a>
+<a href="@Url.Action("Book", "Flights")" class="btn btn-primary" ">Make Another Booking</a>
+
+                   

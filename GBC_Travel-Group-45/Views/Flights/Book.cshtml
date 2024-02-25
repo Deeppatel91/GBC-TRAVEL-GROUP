@@ -1,0 +1,36 @@
+﻿ @{
+    ViewData["Title"] = "Book Flight";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="BookFlight" method="post">
+    <div class="form-group">
+        <label for="flightId">Select Flight</label>
+        <select name="flightId" class="form-control">
+            @foreach (var flight in ViewBag.Flights)
+            {
+                <option value="@flight.Value">@flight.Text</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" class="form-control" name="firstName" required />
+    </div>
+
+    <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" class="form-control" name="lastName" required />
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="email" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Book Now</button>
+</form>
+
+

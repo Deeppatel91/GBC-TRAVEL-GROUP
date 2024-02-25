@@ -1,0 +1,61 @@
+﻿body {
+    /* Form Styles */
+    form
+
+{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+    form div label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    form div input[type="text"],
+    form div input[type="number"],
+    form div input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box; /* Makes sure the padding does not affect the overall width */
+    }
+
+    form div input[type="file"] {
+        background: #ffffff;
+    }
+
+/* Button Styles */
+button {
+    background-color: #007bff; /* Primary color */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+/* Handling Focus for Accessibility */
+form div input:focus {
+    border-color: #007bff;
+    outline: none; /* Optional: removes the default focus outline */
+    box-shadow: 0 0 0 2px rgba(0,123,255,.25);
+}
+
+}

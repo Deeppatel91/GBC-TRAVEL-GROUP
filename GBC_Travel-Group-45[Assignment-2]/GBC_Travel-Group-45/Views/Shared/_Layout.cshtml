@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - GBC_Travel_Group_45</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/GBC_Travel_Group_45.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/ViewBookings.css" />
+    <link rel="stylesheet" href="~/css/MakeBooking.css" />
+    <link rel="stylesheet" href="~/css/AddHotel.css" />
+    <link rel="stylesheet" href="~/css/ViewHotel.css" />
+    <link rel="stylesheet" href="~/css/ViewFlight.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+    <header>
+        <nav class=" navbar-expand-sm navbar-toggleable-sm   box-shadow mb-3">
+            <div class="container-fluid">
+
+                <a class="btn btn-secondary" aria-expanded="false" style=" margin-right: 20px;" asp-area="" asp-controller="Home" asp-action="About">
+                    GBC_Travel_Group_45
+                </a>
+
+
+                <a class="btn btn-secondary " aria-expanded="false" style=" margin-right: 20px;" asp-area="" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house"></i></a>
+
+                <partial name="_LoginPartial" />
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+
+
+
+                        <ul class="navbar-nav flex-grow-1 ">
+
+                            <li class="nav-item dropdown">
+                                <a type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style=" margin-right: 20px;" href="#" id="navbarDropdownFlights" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-plane-up"></i>
+                                    Flights
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownFlights">
+                                    <li><a class="dropdown-item" asp-controller="Flights" asp-action="Index">View All Flights</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Flights" asp-action="Create">Add New Flight</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Flights" asp-action="Book">Book Flight</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Flights" asp-action="ViewBooking">View All Bookings</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style=" margin-right: 20px;" href="#" id="navbarDropdownHotels" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-hotel"></i> Hotels
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownHotels">
+                                    <li><a class="dropdown-item" asp-controller="Hotel" asp-action="Index">View Hotels</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Hotel" asp-action="Create">Add Hotel</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Hotel" asp-action="Book">Make Booking</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Hotel" asp-action="ViewBookings">View All Bookings</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style=" margin-right: 20px;" href="#" id="navbarDropdownHotels" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-car"></i> Car
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownHotels">
+                                    <li><a class="dropdown-item" asp-controller="CarRental" asp-action="Index">View Cars</a></li>
+                                    <li><a class="dropdown-item" asp-controller="CarRental" asp-action="Create">Add Car</a></li>
+                                    <li><a class="dropdown-item" asp-controller="CarRental" asp-action="Book">Make Booking</a></li>
+                                    <li><a class="dropdown-item" asp-controller="CarRental" asp-action="ViewBookings">View All Bookings</a></li>
+                                </ul>
+                            </li>
+
+
+                            <a class="btn btn-primary" aria-expanded="false" style=" margin-right: 20px;" asp-area="" asp-controller="AppRoles" asp-action="Index">
+                                <i class="fa-solid fa-lock"></i>  Roles
+                            </a>
+
+                        </ul>
+
+
+                    </ul>
+
+  <form id="searchForm" class="search-bar-custom formsearch">
+    <select id="searchType" class="form-control-custom">
+        <option value="Flights" selected>Flights</option>
+        <option value="Hotels">Hotels</option>
+        <option value="Cars">Cars</option>
+    </select>
+    <input id="searchQuery" class="form-control-custom" type="search" placeholder="Search">
+    <button type="submit" class="btn btn-primary"><i class="fa-solid fa-magnifying-glass"></i></button>
+</form>
+
+
+
+
+
+
+<div id="loading" style="display: none;">
+    <!-- Loading animation here -->
+    <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+</div>
+
+
+<script>
+document.getElementById('searchForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    var searchType = document.getElementById('searchType').value;
+    var searchQuery = document.getElementById('searchQuery').value;
+
+    document.getElementById('loading').style.display = 'block';
+
+    var url;
+    switch (searchType) {
+        case 'Flights':
+            url = `/Flights/Search?searchQuery=${encodeURIComponent(searchQuery)}`;
+            break;
+        case 'Cars':
+            url = `/CarRental/Search?searchQuery=${encodeURIComponent(searchQuery)}`;
+            break;
+        case 'Hotels':
+            url = `/Hotel/Search?searchQuery=${encodeURIComponent(searchQuery)}`;
+            break;
+        default:
+            document.getElementById('loading').style.display = 'none'; // Immediately hide the loading if no valid searchType is found
+            return;
+    }
+
+    fetch(url, {
+        method: 'GET'
+       
+    })
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('searchResults').innerHTML = data;
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    })
+    .finally(() => {
+        // Hide the loading animation regardless of the outcome of the fetch request
+        document.getElementById('loading').style.display = 'none';
+    });
+});
+
+
+</script>
+
+
+
+
+
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+              <div id="searchResults">
+  <!-- Search results will be dynamically loaded here -->
+</div>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+
+        <footer class=" footer text-muted" style="margin-top: 250px;" >
+   
+            <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="color: white;">&copy; 2024 - Comp2139_Labs -</span>
+
+            </div>
+
+           
+        </footer>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

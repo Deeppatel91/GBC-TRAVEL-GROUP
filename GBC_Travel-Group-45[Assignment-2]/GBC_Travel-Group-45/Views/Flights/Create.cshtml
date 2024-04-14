@@ -1,0 +1,92 @@
+﻿@model GBC_Travel_Group_45.Models.Flight
+
+@{
+    ViewData["Title"] = "Create Flight";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form id="createFlightForm">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="FlightNumber" class="control-label"></label>
+        <input asp-for="FlightNumber" class="form-control" />
+        <span asp-validation-for="FlightNumber" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group">
+        <label asp-for="Origin" class="control-label"></label>
+        <input asp-for="Origin" class="form-control" />
+        <span asp-validation-for="Origin" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Destination" class="control-label"></label>
+        <input asp-for="Destination" class="form-control" />
+        <span asp-validation-for="Destination" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DepartureTime" class="control-label"></label>
+        <input asp-for="DepartureTime" class="form-control" type="datetime-local" />
+        <span asp-validation-for="DepartureTime" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ArrivalTime" class="control-label"></label>
+        <input asp-for="ArrivalTime" class="form-control" type="datetime-local" />
+        <span asp-validation-for="ArrivalTime" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price" class="control-label"></label>
+        <input asp-for="Price" class="form-control" type="number" step="0.01" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="button" value="Create" class="btn btn-primary" id="submitFlight" />
+    </div>
+</form>
+
+<div id="loading" style="display: none;">
+    <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+</div>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#submitFlight').click(function () {
+                var formData = $('#createFlightForm').serialize(); // Serializes the form's elements.
+
+                $('#loading').show(); // Show the loading animation
+
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("Create", "Flights")', // Adjust the URL based on your routing
+                    data: formData,
+                    success: function (response) {
+                        $('#loading').hide(); // Hide loading animation
+                        alert('Flight created successfully');
+                        window.location.href = '@Url.Action("Index", "Flights")'; // Redirect
+                    },
+                    error: function () {
+                        $('#loading').hide(); // Hide loading animation
+                        alert('Error creating flight');
+                    }
+                });
+            });
+        });
+    </script>
+}

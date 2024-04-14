@@ -1,0 +1,29 @@
+﻿@model GBC_Travel_Group_45.Models.Booking
+
+
+@{
+    ViewData["Title"] = "Booking Summary";
+}
+
+<h2>Booking Summary</h2>
+
+<div class="BookingSummary">
+    <h4>Flight Details</h4>
+    <p>Flight Name: @Model.Flight.Name</p>
+    <p>Flight Number: @Model.Flight.FlightNumber</p>
+
+    <p>Origin: @Model.Flight.Origin -> Destination: @Model.Flight.Destination</p>
+    <p>Departure: @Model.Flight.DepartureTime -> Arrival: @Model.Flight.ArrivalTime</p>
+    <p>Price: @Model.Flight.Price</p>
+
+    <h4>Passenger Details</h4>
+    
+    <p>Name: @Model.Passenger.FirstName @Model.Passenger.LastName</p>
+    <p>Email: @Model.Passenger.Email</p>
+</div>
+
+
+<div class="mt-3">
+    <a href="@Url.Action("Index", "Flights")" class="btn btn-secondary">Return to Flight List</a>
+    <a href="@Url.Action("Book", "Flights")" class="btn btn-info">Make Another Booking</a>
+</div>

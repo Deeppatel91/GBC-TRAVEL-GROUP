@@ -1,0 +1,111 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+
+    .formsearch
+
+{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+.search-bar-custom {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.form-control-custom {
+    border: 1px solid #ced4da; /* Bootstrap's default border color */
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    margin-right: .5rem; /* Space between select and input */
+}
+
+    .form-control-custom:focus {
+        border-color: #80bdff; /* Bootstrap's focus border color */
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); /* Bootstrap's default shadow */
+    }
+
+body {
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.nav-link {
+    padding-right: 10px;
+}
+
+.BookingSummary {
+    background-color:white; 
+    max-width: 600px; 
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;"
+}
+
+.tabledesign {
+    background-color: white;
+    max-width: fit-content;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+

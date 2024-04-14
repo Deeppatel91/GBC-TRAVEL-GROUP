@@ -1,0 +1,39 @@
+﻿@model GBC_Travel_Group_45.Models.Hotel
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div>
+        <label asp-for="HotelName"></label>
+        <input asp-for="HotelName" />
+        <span asp-validation-for="HotelName" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Location"></label>
+        <input asp-for="Location" />
+        <span asp-validation-for="Location" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="SingleRoomsCount"></label>
+        <input asp-for="SingleRoomsCount" type="number" />
+        <span asp-validation-for="SingleRoomsCount" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="DoubleRoomsCount"></label>
+        <input asp-for="DoubleRoomsCount" type="number" />
+        <span asp-validation-for="DoubleRoomsCount" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="SingleRoomPrice"></label>
+        <input asp-for="SingleRoomPrice" type="number" step="0.01" />
+        <span asp-validation-for="SingleRoomPrice" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="DoubleRoomPrice"></label>
+        <input asp-for="DoubleRoomPrice" type="number" step="0.01" />
+        <span asp-validation-for="DoubleRoomPrice" class="text-danger"></span>
+    </div>
+    <div>
+        <label>Upload Images</label>
+        <input type="file" name="images" multiple />
+    </div>
+    <button type="submit">Create</button>
+</form>

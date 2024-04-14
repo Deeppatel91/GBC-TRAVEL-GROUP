@@ -1,0 +1,52 @@
+﻿@model GBC_Travel_Group_45.Models.Car
+
+<h2>Edit Car</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+    <div>
+        <label asp-for="Make"></label>
+        <input asp-for="Make" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Model"></label>
+        <input asp-for="Model" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Year"></label>
+        <input asp-for="Year" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Color"></label>
+        <input asp-for="Color" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="NumOfSeats"></label>
+        <input asp-for="NumOfSeats" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="PricePerDay"></label>
+        <input asp-for="PricePerDay" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="CarType"></label>
+        <input asp-for="CarType" class="form-control" />
+    </div>
+
+    <div>
+        <label for="carImages">Upload Images</label>
+        <input type="file" id="carImages" name="carImages" multiple class="form-control" />
+    </div>
+
+    @if (Model.CarImages.Any())
+    {
+        foreach (var image in Model.CarImages)
+        {
+            <img src="@Url.Content(image.ImagePath)" alt="Car Image" style="max-width: 200px; margin-bottom: 10px;" />
+        }
+    }
+
+   
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>

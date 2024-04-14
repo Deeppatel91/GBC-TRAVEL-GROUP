@@ -1,0 +1,27 @@
+﻿@model GBC_Travel_Group_45.Models.Booking
+
+@{
+    ViewData["Title"] = "Delete Booking";
+}
+
+<h2>Delete Booking</h2>
+
+<h3>Are you sure you want to delete this booking?</h3>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Flight</dt>
+        <dd>@Model.Flight.FlightNumber - @Model.Flight.Origin to @Model.Flight.Destination</dd>
+        <dt>Passenger</dt>
+        <dd>@Model.Passenger.FirstName @Model.Passenger.LastName</dd>
+        <dt>Booking Date</dt>
+        <dd>@Model.BookingDate.ToString("g")</dd>
+    </dl>
+
+    <form asp-action="DeleteBooking" method="post">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Delete</button>
+    </form>
+</div>
+
+<a href="@Url.Action("ViewBooking")" class="btn btn-secondary">Back to Bookings</a>

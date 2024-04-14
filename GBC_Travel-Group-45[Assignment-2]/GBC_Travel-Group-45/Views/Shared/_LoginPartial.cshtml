@@ -1,0 +1,76 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+<style>
+    .navbar-nav1 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .navbar-nav1 li {
+            margin-left: 20px;
+        }
+
+        .navbar-nav1 a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .navbar-nav1 button {
+            background-color: transparent;
+            border: none;
+            color: #333;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+
+    .navbar-nav1 button {
+        background-color: #6c757d; /* Secondary button color */
+        border: none;
+        color: #fff; /* Text color */
+        cursor: pointer;
+        font-size: 16px;
+        padding: 0.5rem 1rem; /* Add some padding */
+        border-radius: 0.25rem; /* Add some rounded corners */
+        transition: background-color 0.3s ease; /* Add a transition effect */
+    }
+
+        .navbar-nav1 button:hover {
+            background-color: #5a6268; /* Darker secondary button color on hover */
+        }
+
+    .navbar-nav .user-name {
+        font-weight: bold; /* Make the user name bold */
+        text-decoration-color: white;
+    }
+</style>
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<ul class="navbar-nav1">
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item">
+            <a class="btn btn-secondary" id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"> <i class="fa-regular fa-user"></i> Hello @UserManager.GetUserName(User)!</a>
+    </li>
+    <li class="nav-item">
+            <form style="background-color: transparent;" id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button id="logout" type="submit" class="btn btn-secondary"> <i class="fa-solid fa-right-from-bracket"></i> Logout</button>
+        </form>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+            <a class="btn btn-secondary" class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register"> <i class="fa-solid fa-registered"></i> Register </a>
+    </li>
+    <li class="nav-item">
+            <a class="btn btn-secondary" id="login" asp-area="Identity" asp-page="/Account/Login"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+    </li>
+}
+</ul>

@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "ErrorPage";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <style>
+        .error-container {
+            text-align: center;
+            margin-top: 50px; 
+        }
+
+        .error-heading {
+            font-size: 2em;
+            color: #dc3545;
+            margin-bottom: 20px; 
+        }
+
+        .error-message {
+            font-size: 1.2em;
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+
+        .home-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .error-image {
+            margin-top: 2px;
+            max-width: 100%;
+            min-width: 300px; 
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <a href="/" class="home-button">Home</a> 
+        <h1 class="error-heading">@ViewData["Error"]</h1>
+        @if (ViewData["Error"].ToString() == "Internal Server Error")
+        {
+            <p class="error-message">An internal server error occurred.</p>
+            <img src="/images/giphy.gif" alt="Internal Server Error" class="error-image" />
+        }
+        else
+        {
+            <p class="error-message">The requested page could not be found.</p>
+            <img src="/images/404rocket.gif" alt="Page Not Found" class="error-image" />
+        }
+    </div>
+</body>
+</html>

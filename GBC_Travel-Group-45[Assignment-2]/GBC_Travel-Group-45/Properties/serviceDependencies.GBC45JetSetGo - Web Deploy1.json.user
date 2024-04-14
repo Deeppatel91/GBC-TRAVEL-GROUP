@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2024-04-04T02:36:32.1058361Z"
+    }
+  },
+  "parameters": {
+    "GBC45JetSetGo.resourceName": {
+      "Name": "GBC45JetSetGo.resourceName",
+      "Type": null,
+      "Value": "GBC45JetSetGo"
+    },
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "e399d77f-0044-47fa-a32e-66fbdc92cb6d"
+    },
+    "GBC45JetSetGo.resourceGroupName": {
+      "Name": "GBC45JetSetGo.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "GBC_Travel_Group"
+    },
+    "GBC45JetSetGo.resourceGroupLocation": {
+      "Name": "GBC45JetSetGo.resourceGroupLocation",
+      "Type": null,
+      "Value": "eastus"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "GBC_Travel_Group"
+    },
+    "GBC45JetSetGo.subscriptionId": {
+      "Name": "GBC45JetSetGo.subscriptionId",
+      "Type": "subscription",
+      "Value": "e399d77f-0044-47fa-a32e-66fbdc92cb6d"
+    }
+  }
+}

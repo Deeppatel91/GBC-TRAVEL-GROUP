@@ -1,0 +1,47 @@
+﻿@model GBC_Travel_Group_45.Models.CarBooking
+
+@{
+    ViewData["Title"] = "Car Booking Confirmation";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="BookingSummary">
+    <h4>Car Booking Details</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">Booking ID:</dt>
+        <dd class="col-sm-9">@Model.Id</dd>
+
+        <dt class="col-sm-3">Car:</dt>
+        <dd class="col-sm-9">@Model.Car.Make @Model.Car.Model (@Model.Car.Year)</dd>
+
+        <dt class="col-sm-3">Customer Name:</dt>
+        <dd class="col-sm-9">@Model.Customer.FirstName @Model.Customer.LastName</dd>
+
+        <dt class="col-sm-3">Email:</dt>
+        <dd class="col-sm-9">@Model.Email</dd>
+
+        <dt class="col-sm-3">Phone Number:</dt>
+        <dd class="col-sm-9">@Model.PhoneNumber</dd>
+
+        <dt class="col-sm-3">Pickup Location:</dt>
+        <dd class="col-sm-9">@Model.PickupLocation</dd>
+
+        <dt class="col-sm-3">Drop Location:</dt>
+        <dd class="col-sm-9">@Model.DropLocation</dd>
+
+        <dt class="col-sm-3">Booking Start Date:</dt>
+        <dd class="col-sm-9">@Model.BookingStart.ToShortDateString()</dd>
+
+        <dt class="col-sm-3">Booking End Date:</dt>
+        <dd class="col-sm-9">@Model.BookingEnd.ToShortDateString()</dd>
+
+        <dt class="col-sm-3">Total Price:</dt>
+        <dd class="col-sm-9">$@Model.TotalPrice.ToString("N2")</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-primary">Back to Listings</a>
+</div>

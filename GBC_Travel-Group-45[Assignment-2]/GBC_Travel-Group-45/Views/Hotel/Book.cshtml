@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewData["Title"] = "Book Hotel";
+}
+
+<h2>Book Hotel</h2>
+
+<form asp-action="Book" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label for="hotelId">Select Hotel</label>
+        <select name="hotelId" class="form-control">
+            @foreach (var hotel in ViewBag.Hotels)
+            {
+                <option value="@hotel.Value">@hotel.Text</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="guestFirstName">First Name</label>
+        <input type="text" class="form-control" name="guestFirstName" required />
+    </div>
+
+    <div class="form-group">
+        <label for="guestLastName">Last Name</label>
+        <input type="text" class="form-control" name="guestLastName" required />
+    </div>
+
+    <div class="form-group">
+        <label for="guestAge">Age</label>
+        <input type="number" class="form-control" name="guestAge" required />
+    </div>
+
+    <div class="form-group">
+        <label for="governmentId">Government ID</label>
+        <input type="text" class="form-control" name="governmentId" required />
+    </div>
+
+
+    <div class="form-group">
+        <label for="roomType">Room Type</label>
+        <select name="roomType" class="form-control">
+            <option value="Single">Single</option>
+            <option value="Double">Double</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="numberOfRooms">Number of Rooms</label>
+        <input type="number" class="form-control" name="numberOfRooms" required />
+    </div>
+
+    <div class="form-group">
+        <label for="bookingStart">Booking Start Date</label>
+        <input type="date" class="form-control" name="bookingStart" required />
+        
+    </div>
+
+    <div class="form-group">
+        <label for="bookingEnd">Booking End Date</label>
+        <input type="date" class="form-control" name="bookingEnd" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Book Now</button>
+</form>

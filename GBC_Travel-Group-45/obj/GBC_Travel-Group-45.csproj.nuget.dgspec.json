@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\GBC_Travel-Group-45.csproj": {}
+    "C:\\A2\\GBC_Travel-Group-45[Final]\\Gitu\\GBC_Travel-Group-45\\GBC_Travel-Group-45.csproj": {}
   },
   "projects": {
-    "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\GBC_Travel-Group-45.csproj": {
+    "C:\\A2\\GBC_Travel-Group-45[Final]\\Gitu\\GBC_Travel-Group-45\\GBC_Travel-Group-45.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\GBC_Travel-Group-45.csproj",
+        "projectUniqueName": "C:\\A2\\GBC_Travel-Group-45[Final]\\Gitu\\GBC_Travel-Group-45\\GBC_Travel-Group-45.csproj",
         "projectName": "GBC_Travel-Group-45",
-        "projectPath": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\GBC_Travel-Group-45.csproj",
+        "projectPath": "C:\\A2\\GBC_Travel-Group-45[Final]\\Gitu\\GBC_Travel-Group-45\\GBC_Travel-Group-45.csproj",
         "packagesPath": "C:\\Users\\drpat\\.nuget\\packages\\",
-        "outputPath": "C:\\COmp2139Assign\\GBC_Travel-Group-45\\GBC_Travel-Group-45\\obj\\",
+        "outputPath": "C:\\A2\\GBC_Travel-Group-45[Final]\\Gitu\\GBC_Travel-Group-45\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\drpat\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,39 @@
+﻿@model IEnumerable<GBC_Travel_Group_45.Models.HotelBooking>
+
+@{
+    ViewData["Title"] = "View Bookings";
+}
+
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="styled-table  tabledesign">
+    <thead>
+        <tr>
+            <th>Hotel Name</th>
+            <th>Guest Name</th>
+            <th>Booking Dates</th>
+            <th>Room Type</th>
+            <th>Number of Rooms</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var booking in Model)
+        {
+            <tr>
+                <td>@booking.Hotel.HotelName</td>
+                <td>@booking.Guest.FirstName @booking.Guest.LastName</td>
+                <td>@booking.BookingStart.ToShortDateString() - @booking.BookingEnd.ToShortDateString()</td>
+                <td>@booking.RoomType</td>
+                <td>@booking.NumberOfRooms</td>
+                <td>$@booking.TotalPrice.ToString("N2")</td>
+                <td>
+                    <a asp-action="EditBooking" asp-route-id="@booking.Id" class="btn btn-edit"><i class="fa-solid fa-pen"></i> Edit</a> |
+                    <a asp-action="DeleteBooking" asp-route-id="@booking.Id" class="btn btn-delete"><i class="fa-solid fa-trash-can"></i> Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
